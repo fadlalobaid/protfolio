@@ -115,6 +115,7 @@ span {
     top: 3rem;
     width: 30vw;
     height: 30vw;
+   
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -127,10 +128,11 @@ span {
         0 0 100px var(--main-color);
 }
 .home-content p {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
+    font-family: monospace;
 }
 .social-icon a {
     display: inline-block;
@@ -677,7 +679,7 @@ padding: 5rem 5rem ;
 
     }
     .home-img img{
-        width: 56vw;
+        width:20vw;
 
     }
 .services h2{
