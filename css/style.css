@@ -635,6 +635,10 @@ padding: 5rem 5rem ;
     #menu-icon{
         display: block;
     }
+    .heading{
+        font-size: 5rem;
+
+    }
     .navbar{
         position: absolute;
         top: 100%;
@@ -669,7 +673,7 @@ padding: 5rem 5rem ;
 
     }
     .home-content h1{
-        font-size: 8rem;
+        font-size: 3.3rem;
         margin-top: 3rem;
     }
     
@@ -679,7 +683,8 @@ padding: 5rem 5rem ;
 
     }
     .home-img img{
-        width:20vw;
+        width:70vw;
+        height:70vw;
 
     }
 .services h2{
