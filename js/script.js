@@ -24,12 +24,3 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
   navbar.classList.toggle("active");
 };
-
-function myFuncstion() {
-  Swal.fire({
-    title: "Thanks for visiting",
-    icon: "success",
-    draggable: true,
-    
-  });
-}

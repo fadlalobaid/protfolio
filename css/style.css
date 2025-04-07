@@ -694,3 +694,34 @@ padding: 5rem 5rem ;
     grid-template-columns: repeat(1,1fr);
 }
 }
+
+.prog{
+    width:10%;
+    height: 5px;
+    color: #00ffee;
+    background-color: #00ffee;
+    z-index: 33326;
+    position:fixed;
+    top:0;
+    animation:scrl linear forwards;
+    animation-timeline:scroll();
+}
+@keyframes scrl {
+    0%{
+  width:5%;
+    }
+    25%{
+        width:25%;
+    }
+    50%{
+        width: 50%;
+
+    }
+    75%{
+        width: 75%;
+
+    }
+    100%{
+width: 100%;
+    }
+}
