@@ -24,3 +24,19 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
   navbar.classList.toggle("active");
 };
+
+function sendMassege(){
+  const name=document.getElementById('name').value
+  const massege = document.getElementById('massege').value;
+  const phone=+9647800271337
+  if(!massege && !name ){
+    alert('ادخل الاسم والرسالة من فضلك')
+    return;
+  }
+  const url=`https://wa.me/${phone}?text=مرحباً انا:${name} 
+   ${massege}`
+
+  open(url,"_blank")
+  console.log(url);
+  
+}
